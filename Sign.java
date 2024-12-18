@@ -27,6 +27,8 @@ public class Sign
             }
             return s;
         }    
-            else return null;
+        if (message.length() == 0) return null;
+        else return null;
+        
     }
 }
